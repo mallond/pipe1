@@ -6,7 +6,7 @@
         "nodes": {
             "pipe1": "lower-case.js"
         }
-    }
+    },
   "devDependencies": {
   }
 }
