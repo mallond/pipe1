@@ -1,1 +1,8 @@
 
+
+  "name": "pipe1",
+  "description": "Minimal router and client",
+  "version": "0.0.1",
+  "devDependencies": {
+  }
+}
