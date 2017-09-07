@@ -4,6 +4,7 @@ module.exports = function (RED) {
         RED.nodes.createNode(this, config);
         var node = this;
         this.on('input', function (msg) {
+            var tax = msg.tax;
             node.send(msg);
         });
     }
