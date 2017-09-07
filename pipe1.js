@@ -4,7 +4,6 @@ module.exports = function (RED) {
         RED.nodes.createNode(this, config);
         var node = this;
         this.on('input', function (msg) {
-            msg.payload = "Pipe1";
             node.send(msg);
         });
     }
